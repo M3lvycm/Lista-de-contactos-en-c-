@@ -4,7 +4,7 @@
 #include "contacto.h"
 
 typedef struct{ 
-	Contacto *lista_contactos; 
+	Contacto **lista_contactos; 
 	int cantidad; 
    
 } Agenda; 
